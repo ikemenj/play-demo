@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "John Fite <john.fite@optum.com>"
+packageSummary := "My demo package"
+packageDescription := "Package"
